@@ -4,6 +4,7 @@ export default {
   theme: {
     colors: {
       purple: "#AD1FEA",
+      pink: "#C75AF6",
       blue: "#4661E6",
       navy: "#373F68",
       white: "#FFFFFF",
@@ -18,7 +19,11 @@ export default {
       jost: "'Jost', sans-serif",
     },
     gridTemplateColumns: {
-      mob: "24px repeat(10,1fr) 24px"
+      mob: "24px repeat(10,1fr) 24px",
+      sortBarMob: "1fr auto",
+    },
+    boxShadow: {
+      sortDropdown: "0px 10px 40px -7px rgba(55, 63, 104, 0.35)",
     },
     extend: {},
   },
