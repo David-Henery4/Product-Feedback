@@ -1,20 +1,15 @@
 import { ArrowUpIcon, CommentsIcon } from "../assets/shared";
 import placeholderData from "../../data.json";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const FeedbackListSection = () => {
   const [tempRequestsData, setTempRequestsData] = useState(
     placeholderData?.productRequests
   );
   //
-  useEffect(() => {
-    console.log(tempRequestsData)
-  }, [])
-  //
   return (
-    <section className="mt-8 col-start-2 col-end-12 grid gap-4">
-
-      {tempRequestsData?.map(tData => {
+    <section className="mt-8 mb-14 col-start-2 col-end-12 grid gap-4">
+      {tempRequestsData?.map((tData) => {
         return (
           <div
             key={tData?.id}
@@ -38,12 +33,11 @@ const FeedbackListSection = () => {
             </div>
             <div className="flex justify-center items-center gap-1">
               <CommentsIcon />
-              <p>2</p>
+              <p>{tData?.comments ? tData?.comments?.length : 0}</p>
             </div>
           </div>
         );
       })}
-
     </section>
   );
 };
