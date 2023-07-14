@@ -21,6 +21,7 @@ export default {
     gridTemplateColumns: {
       mob: "24px repeat(10,1fr) 24px",
       sortBarMob: "1fr auto",
+      feebackBox: "1fr auto",
     },
     boxShadow: {
       sortDropdown: "0px 10px 40px -7px rgba(55, 63, 104, 0.35)",
