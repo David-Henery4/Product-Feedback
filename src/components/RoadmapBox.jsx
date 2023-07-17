@@ -40,7 +40,7 @@ const RoadmapBox = () => {
   }, [placeholderData?.productRequests]);
   //
   return (
-    <div className="bg-white p-6 rounded-[10px] w-full grid gap-6">
+    <div className="bg-white p-6 rounded-[10px] w-full grid gap-6 h-full">
       <div className="flex justify-between items-center">
         <h2 className="text-lightNavy font-bold -tracking-[0.25px] text-lg">
           Roadmap

@@ -8,7 +8,7 @@ const FeedbackListSection = () => {
   );
   //
   return (
-    <section className="mt-8 mb-14 col-start-2 col-end-12 grid gap-4">
+    <section className="mt-8 mb-14 col-start-2 col-end-12 grid gap-4 tab:mt-6">
       {tempRequestsData?.map((tData) => {
         return (
           <FeedbackBox key={tData?.id} {...tData} />

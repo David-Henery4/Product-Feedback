@@ -2,6 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
+    screens: {
+      smTab: "32.5em",
+      tab: "40em",
+    },
     colors: {
       purple: "#AD1FEA",
       pink: "#C75AF6",
@@ -20,6 +24,7 @@ export default {
     },
     gridTemplateColumns: {
       mob: "24px repeat(10,1fr) 24px",
+      smTab: "40px repeat(10,1fr) 40px",
       sortBarMob: "1fr auto",
       feebackBox: "1fr auto",
     },
