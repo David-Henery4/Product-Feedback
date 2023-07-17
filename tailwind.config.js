@@ -3,8 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     screens: {
-      smTab: "32.5em",
-      tab: "40em",
+      smTab: "32.5em", // 520px
+      tab: "40em", // 640px
+      lgTab: "45em", // 720px
     },
     colors: {
       purple: "#AD1FEA",
@@ -27,6 +28,7 @@ export default {
       smTab: "40px repeat(10,1fr) 40px",
       sortBarMob: "1fr auto",
       feebackBox: "1fr auto",
+      feebackBoxTablet: "auto 1fr auto",
     },
     boxShadow: {
       sortDropdown: "0px 10px 40px -7px rgba(55, 63, 104, 0.35)",

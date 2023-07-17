@@ -48,7 +48,7 @@ const FeedbackBarSection = () => {
           />
         </div>
       </div>
-      <button className="bg-purple flex items-center gap-1 font-bold text-iceWhite px-2 py-3 rounded-[10px] hover:bg-pink active:bg-purple">
+      <button className="text-sm bg-purple flex items-center gap-1 font-bold text-iceWhite px-2 py-3 rounded-[10px] hover:bg-pink active:bg-purple ">
         <PlusIcon />
         Add Feedback
       </button>
