@@ -2,7 +2,7 @@ import { SuggestionsIcon } from "../assets/suggestions";
 
 const SuggestionsCount = () => {
   return (
-    <div className="hidden justify-start items-center gap-4 font-bold text-lg tab:flex">
+    <div className="hidden justify-start items-center gap-4 font-bold text-lg lgTab:flex">
       <SuggestionsIcon />
       <p>
         <span>6 </span>

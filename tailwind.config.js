@@ -6,6 +6,7 @@ export default {
       smTab: "32.5em", // 520px
       tab: "40em", // 640px
       lgTab: "45em", // 720px
+      lap: "63.75em", // 1070px
     },
     colors: {
       purple: "#AD1FEA",
@@ -29,6 +30,7 @@ export default {
       sortBarMob: "1fr auto",
       feebackBox: "1fr auto",
       feebackBoxTablet: "auto 1fr auto",
+      lap: "40px auto 30px 1fr 40px",
     },
     boxShadow: {
       sortDropdown: "0px 10px 40px -7px rgba(55, 63, 104, 0.35)",

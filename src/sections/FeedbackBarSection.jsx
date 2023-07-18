@@ -25,13 +25,13 @@ const FeedbackBarSection = () => {
   //
   return (
     <div
-      className={`w-full col-start-1 col-end-13 bg-lightNavy py-2 px-6 grid grid-cols-sortBarMob gap-x-2 text-[13px] text-white smTab:px-10 tab:col-start-2 tab:col-end-12 tab:rounded-[10px] tab:px-3 tab:py-[14px] after:fixed after:top-0 after:left-0 after:w-full after:h-full after:z-10 ${
+      className={`w-full col-start-1 col-end-13 bg-lightNavy py-2 px-6 grid grid-cols-sortBarMob gap-x-2 text-[13px] text-white smTab:px-10 lgTab:col-start-2 lgTab:col-end-12 lgTab:rounded-[10px] lgTab:px-3 lgTab:py-[14px] lap:col-start-4 lap:col-end-5 lap:row-start-1 lap:row-end-2 after:fixed after:top-0 after:left-0 after:w-full after:h-full after:z-10 ${
         isSortOpen ? "after:block" : "after:hidden"
       }`}
       onClick={() => isSortOpen && setIsSortOpen(false)}
     >
-      <div className="relative z-20 flex items-center gap-[6px] tab:gap-9">
-        <SuggestionsCount/>
+      <div className="relative z-20 flex items-center gap-[6px] lgTab:gap-9">
+        <SuggestionsCount />
         <div className="relative z-20">
           <p
             className="hover:cursor-pointer"

@@ -27,7 +27,7 @@ const CategoryBox = () => {
   }, []);
   //
   return (
-    <div className="w-full bg-white p-6 flex flex-wrap justify-start items-center gap-2 rounded-[10px] h-full">
+    <div className="w-full bg-white p-6 flex flex-wrap justify-start items-center gap-2 rounded-[10px] max-w-[350px] lgTab:max-w-none lgTab:h-full">
       <div className="text-blue font-semibold text-[13px] py-[6px] px-4 bg-iceWhite rounded-[10px] capitalize mb-[6px]">
         <p>All</p>
       </div>

@@ -40,7 +40,7 @@ const RoadmapBox = () => {
   }, [placeholderData?.productRequests]);
   //
   return (
-    <div className="bg-white p-6 rounded-[10px] w-full grid gap-6 h-full">
+    <div className="bg-white p-6 rounded-[10px] w-full grid gap-6 max-w-[350px] lgTab:max-w-none lgTab:h-full">
       <div className="flex justify-between items-center">
         <h2 className="text-lightNavy font-bold -tracking-[0.25px] text-lg">
           Roadmap
@@ -50,12 +50,14 @@ const RoadmapBox = () => {
         </a>
       </div>
       <ul className="grid gap-2">
-        {roadmap?.map(road => {
+        {roadmap?.map((road) => {
           return (
             <li key={road?.id} className="flex justify-between items-center">
               <div className="flex justify-start items-center gap-4">
                 <div className={`rounded-full h-2 w-2 ${road?.colour}`}></div>
-                <h3 className="text-base text-gray font-normal">{road?.label}</h3>
+                <h3 className="text-base text-gray font-normal">
+                  {road?.label}
+                </h3>
               </div>
               <p className="font-bold text-base text-gray">{road?.quantity}</p>
             </li>
