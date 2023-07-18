@@ -6,6 +6,7 @@ import RoadmapBox from "./RoadmapBox";
 import SuggestionsCount from "./SuggestionsCount";
 import TitleBox from "./TitleBox";
 import Titles from "./Titles";
+import EmptyFeedbackSection from "./EmptyFeedbackSection";
 
 export {
   Sidebar,
@@ -15,5 +16,6 @@ export {
   RoadmapBox,
   SuggestionsCount,
   TitleBox,
-  Titles
+  Titles,
+  EmptyFeedbackSection,
 }
